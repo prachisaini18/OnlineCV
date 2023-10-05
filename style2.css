@@ -1,0 +1,81 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #333;
+}
+
+a {
+    color: #2670a2;
+    text-decoration: none;
+}
+
+
+/* ... other CSS code ... */
+
+/* Style social media icons */
+.name-hero p a {
+    margin-right: 10px;
+}
+
+.name-hero p a img {
+    height: 6%;
+    vertical-align: middle;
+}
+
+/* ... other CSS code ... */
+
+
+/* Style the wrapper and layout */
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.left {
+    flex: 1;
+    background-color: #4080ab;
+    color: #fff;
+    padding: 20px;
+}
+
+.right {
+    flex: 2;
+    padding: 20px;
+    margin-left: 20px;
+
+
+}
+
+/* Style the name and contact info */
+.name-hero {
+    text-align: center;
+}
+
+.me-img {
+    background: url('Prachi\ -\ photo.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.name-hero h1 {
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+
+
